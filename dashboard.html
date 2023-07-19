@@ -1,0 +1,75 @@
+
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Visualization Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Additional CSS for dashboard layout */
+        .dashboard-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .chart-item {
+            width: 45%;
+            margin: 20px;
+        }
+
+        /* Style the button to match the "View Dashboard" button */
+        .back-button {
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #1f77b4;
+            color: #FFF;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #1569a5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Visualization Dashboard</h1>
+
+    <div class="dashboard-container">
+        <div class="chart-item">
+            <h2>Bar Chart</h2>
+            <iframe src="{{ chart_path1 }}" width="100%" height="400" seamless></iframe>
+        </div>
+
+        <div class="chart-item">
+            <h2>Line Chart</h2>
+            <iframe src="{{ chart_path2 }}" width="100%" height="400" seamless></iframe>
+        </div>
+
+        <div class="chart-item">
+            <h2>Pie Chart</h2>
+            <iframe src="{{ chart_path3 }}" width="100%" height="400" seamless></iframe>
+        </div>
+
+        <div class="chart-item">
+            <h2>Scatter Plot</h2>
+            <iframe src="{{ chart_path4 }}" width="100%" height="400" seamless></iframe>
+        </div>
+    </div>
+
+    <!-- Back button to return to the home page -->
+    <div class="back-button">
+        <a href="{{ url_for('index') }}" class="button">Back to Home</a>
+    </div>
+
+</body>
+</html>
