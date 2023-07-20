@@ -17,6 +17,15 @@
 ## Detailed Steps On How To Use The App
 
 1) Users upload the files in the form of excel in this page
+![App Screenshot](Screenshots/Screenshot%202023-07-20%20141549.png)
+![App Screenshot](Screenshots/Screenshot%202023-07-20%20141609.png)
+
+2) After uploading,this page will load and all four different type of graphs/charts will be generated
+![App Screenshot](Screenshots/Screenshot%2023-07-20%20141639.png)
+![App Screenshot](Screenshots/Screenshot%2023-07-20%20141704.png)
+![App Screenshot](Screenshots/Screenshot%2023-07-20%20141718.png)
+![App Screenshot](Screenshots/Screenshot%2023-07-20%20141803.png)
+
 
 
 
