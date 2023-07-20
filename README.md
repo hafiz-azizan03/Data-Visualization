@@ -59,7 +59,7 @@ The application provides the ability to load and visualize various types of data
 
 ## Directory Of Files And Where To Place The Code Files
 
-note: the NASBMZ file is simply a 'test' file, users are freely to name the file according to their preference.
+note: the NASBMZ file is simply a 'test' file, users are freely to name the file according to their preference.The other files should follow as the png shown below.
 
 ![App Screenshot](Screenshots/Screenshot%202023-07-20%20154236.png)
 
